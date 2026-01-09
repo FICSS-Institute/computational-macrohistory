@@ -13,7 +13,7 @@ Computational Macrohistory (CMH) applies rigorous quantitative methods to study 
 
 ## Project Links
 
-- **Research Blog**: https://substack.com/@galenfontaise
+- **Research Blog**: https://galenfontaise.substack.com/
 - **Institution**: https://ficss.institute
 - **LinkedIn**: https://www.linkedin.com/in/galenfontaise/
 
