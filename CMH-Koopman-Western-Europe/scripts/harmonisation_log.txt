@@ -1,0 +1,72 @@
+[21:39:54] ======================================================================
+[21:39:54] WP-2026-006 Panel Harmonisation
+[21:39:54] Run: 2026-05-18 21:39:54
+[21:39:54] ======================================================================
+[21:39:54] 
+[1/5] Loading source datasets...
+[21:39:54]   Reading V-Dem v16...
+[21:39:56]     1,784 rows after panel filter
+[21:39:56]   Reading Maddison 2023...
+[21:39:59]     6,208 rows after panel filter
+[21:39:59]   Reading COW NMC v6.0...
+[21:39:59]     1,577 rows after panel filter (incl. FRG code 260 for Germany)
+[21:39:59] 
+[2/5] Resolving Germany code switching for COW...
+[21:39:59]     Germany: 156 rows from code 255 (pre-1945 + post-1989), 35 rows from code 260 (FRG 1949-1989)
+[21:39:59]     Germany 1945-1948: no data (Allied occupation)
+[21:39:59]     Total COW panel rows: 1,575
+[21:39:59] 
+[3/5] Joining V-Dem + Maddison + COW on (ISO3, year)...
+[21:39:59]     Merged panel: 1,360 country-year rows (expected 1360 = 1,360)
+[21:39:59] 
+[4/5] Building canonical long-format panel CSV...
+[21:39:59]     Saved: WP-2026-006_WesternEurope_Panel_v0-1.csv (6,800 rows)
+[21:39:59] 
+  Coverage summary (per country, listwise complete country-years):
+[21:39:59]     Sub-window 1820-1913:
+[21:39:59]       FRA:  94/ 94 listwise complete
+[21:39:59]       GBR:  94/ 94 listwise complete
+[21:39:59]       DEU:  94/ 94 listwise complete
+[21:39:59]       ITA:  52/ 94 listwise complete
+[21:39:59]       ESP:  94/ 94 listwise complete
+[21:39:59]       NLD:  94/ 94 listwise complete
+[21:39:59]       SWE:  94/ 94 listwise complete
+[21:39:59]       BEL:  68/ 94 listwise complete
+[21:39:59]     Sub-window 1945-2020:
+[21:39:59]       FRA:  72/ 76 listwise complete
+[21:39:59]       GBR:  72/ 76 listwise complete
+[21:39:59]       DEU:  62/ 76 listwise complete
+[21:39:59]       ITA:  72/ 76 listwise complete
+[21:39:59]       ESP:  72/ 76 listwise complete
+[21:39:59]       NLD:  72/ 76 listwise complete
+[21:39:59]       SWE:  72/ 76 listwise complete
+[21:39:59]       BEL:  72/ 76 listwise complete
+[21:39:59] 
+  Germany sub-window 2 granular check (which variables missing by year):
+[21:39:59]       1945: missing ['v2x_libdem', 'v2x_polyarchy', 'cinc']
+[21:39:59]       1946: missing ['v2x_libdem', 'v2x_polyarchy', 'cinc']
+[21:39:59]       1947: missing ['v2x_libdem', 'v2x_polyarchy', 'cinc']
+[21:39:59]       1948: missing ['v2x_libdem', 'v2x_polyarchy', 'cinc']
+[21:39:59]       1949: missing ['cinc']
+[21:39:59]       1950: missing ['cinc']
+[21:39:59]       1951: missing ['cinc']
+[21:39:59]       1952: missing ['cinc']
+[21:39:59]       1953: missing ['cinc']
+[21:39:59]       1954: missing ['cinc']
+[21:39:59]       2017: missing ['cinc']
+[21:39:59]       2018: missing ['cinc']
+[21:39:59]       2019: missing ['cinc']
+[21:39:59]       2020: missing ['cinc']
+[21:39:59] 
+[5/5] Populating prospect Excel workbook...
+[21:40:00]   V-Dem: 2608 values filled, 112 empty (missing), 104 flagged in Source_Notes
+[21:40:00]   Maddison: 2695 values filled, 25 empty (missing), 26 flagged in Source_Notes
+[21:40:00]   COW: 1308 values filled, 52 empty (missing), 20 flagged in Source_Notes
+[21:40:01]   Saved: WP-2026-006_DataCollection_Prospect_v0-1_filled.xlsx
+[21:40:01] 
+======================================================================
+[21:40:01] HARMONISATION COMPLETE
+[21:40:01] ======================================================================
+[21:40:01]   Canonical panel CSV: C:\Users\tenof\Documents\CMH\WP-2026-006_data\processed\WP-2026-006_WesternEurope_Panel_v0-1.csv
+[21:40:01]   Filled prospect:     C:\Users\tenof\Documents\CMH\WP-2026-006_data\WP-2026-006_DataCollection_Prospect_v0-1_filled.xlsx
+[21:40:01]   Log:                 C:\Users\tenof\Documents\CMH\WP-2026-006_data\processed\harmonisation_log.txt
