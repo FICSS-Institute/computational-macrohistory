@@ -1,0 +1,35 @@
+Surrogate null distribution: N_sim = 1000
+  Panel structure: 8 countries x 5 variables, pre-war T=94, post-war T=76
+  Per-variable AR(1) coefficients: [0.10, 0.15, 0.85, 0.85, 0.90]
+  (matches data: log-differenced GDP/pop ~ white noise;
+   V-Dem indices and CINC in levels are highly persistent)
+  Cross-country residual correlation: pre 0.044, post 0.193
+
+  ... 100/1000 simulations complete
+  ... 200/1000 simulations complete
+  ... 300/1000 simulations complete
+  ... 400/1000 simulations complete
+  ... 500/1000 simulations complete
+  ... 600/1000 simulations complete
+  ... 700/1000 simulations complete
+  ... 800/1000 simulations complete
+  ... 900/1000 simulations complete
+  ... 1000/1000 simulations complete
+
+======================================================================
+SURROGATE TEST RESULTS — NULL DISTRIBUTION
+======================================================================
+  N_sim                                    = 1000
+  Fraction of panels with >=1 match        = 0.5430
+  Mean #modes in 5-9y band, pre-war        = 1.25
+  Mean #modes in 5-9y band, post-war       = 1.19
+  Mean #matches per panel pair             = 0.69
+  Distribution of best matched |lambda| under null:
+    50th percentile                       = 0.8026
+    75th percentile                       = 0.8249
+    90th percentile                       = 0.8472
+    95th percentile                       = 0.8553
+    99th percentile                       = 0.8749
+  P(best matched |lambda| >= 0.78 | match) = 0.6888
+  P(>=1 match AND best |lambda| >= 0.78)   = 0.3740
+

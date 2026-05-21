@@ -1,0 +1,51 @@
+Calibration of the noise scale (sigma_eps^2 * Q):
+  Pre-war:  sigma_eps^2 * Q = 2.99
+  Post-war: sigma_eps^2 * Q = 6.24
+
+======================================================================
+MINIMUM DETECTABLE DECAY TIME (95% confidence, exact form)
+======================================================================
+
+  Pre-war 1820-1913:
+    Q1 threshold (1 - 1/(3 T_max))   = 0.9894
+    Estimated SE on |hat lambda|      = 0.0064
+    2 * SE                            = 0.0128
+    1 / (3 * T_max)                   = 0.0106
+    Margin (1/(3*T_max) - 2*SE) = -0.0022 <= 0
+    Interpretation: the noise floor exceeds the Q1 threshold's
+    distance from unit modulus. Even genuinely neutral modes
+    (|lambda| = 1) cannot be reliably distinguished from
+    sub-threshold modes given the available precision.
+    The Q1 test has effectively zero power on this sub-window.
+
+  Post-war 1945-2020:
+    Q1 threshold (1 - 1/(3 T_max))   = 0.9868
+    Estimated SE on |hat lambda|      = 0.0297
+    2 * SE                            = 0.0594
+    1 / (3 * T_max)                   = 0.0132
+    Margin (1/(3*T_max) - 2*SE) = -0.0462 <= 0
+    Interpretation: the noise floor exceeds the Q1 threshold's
+    distance from unit modulus. Even genuinely neutral modes
+    (|lambda| = 1) cannot be reliably distinguished from
+    sub-threshold modes given the available precision.
+    The Q1 test has effectively zero power on this sub-window.
+
+======================================================================
+WHAT N_eff WOULD BE REQUIRED FOR ADEQUATE POWER?
+======================================================================
+
+To detect a mode with decay time tau_target, the test needs:
+    SE on |hat lambda| <= [1/(3 T_max) - 1/tau_target] / 2
+
+Assuming sigma_eps^2 * Q (the calibrated noise scale) is constant:
+
+  Pre-war 1820-1913 (current N_eff = 467):
+    decay tau = 100y: needs N_eff >= 9365 (20.1x current)
+    decay tau = 150y: needs N_eff >= 1505 (3.2x current)
+    decay tau = 200y: needs N_eff >= 1060 (2.3x current)
+
+  Post-war 1945-2020 (current N_eff = 210):
+    decay tau = 100y: needs N_eff >= 3950 (18.8x current)
+    decay tau = 150y: needs N_eff >= 1922 (9.2x current)
+    decay tau = 200y: needs N_eff >= 1529 (7.3x current)
+
