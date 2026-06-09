@@ -3,7 +3,7 @@
 **Dataset**: `arab_spring_data.csv`  
 **Coverage**: Tunisia, Egypt, Saudi Arabia | 2000–2012  
 **Observations**: 195 (3 countries × 5 variables × 13 years)  
-**Last updated**: February 2026
+**Last updated**: June 2026 (aligned with paper v2.0: E₂ unit 0–100, source attribution per §4.5.3)
 
 ---
 
@@ -44,11 +44,10 @@ Each row in `arab_spring_data.csv` represents one country-year observation.
 ### E₂ — Gini Coefficient
 
 - **Definition**: Gini index of income inequality among individuals or households
-- **Unit**: Dimensionless index, range 0 (perfect equality) to 1 (maximum inequality)
-  - Note: some sources express as 0–100; values here normalized to 0–1
-- **Source (primary)**: World Bank PovcalNet / Poverty and Inequality Platform
-  - URL: https://pip.worldbank.org
-- **Source (secondary)**: UNU-WIDER World Income Inequality Database (WIID)
+- **Unit**: Index on the 0–100 scale (0 = perfect equality, 100 = maximum inequality)
+  - Note: some sources express the Gini as 0–1; values in this dataset and in the paper are on the 0–100 scale (e.g. Tunisia 2010 = 42.95)
+- **Source (primary)**: Standardized World Income Inequality Database (SWIID v9.0), supplemented by World Bank WDI where SWIID data unavailable (paper §4.5.3)
+- **Source (secondary)**: World Bank Poverty and Inequality Platform; UNU-WIDER World Income Inequality Database (WIID), used for cross-checks
   - URL: https://www.wider.unu.edu/database/world-income-inequality-database-wiid
 - **Operationalization**: Direct use of reported Gini index; when multiple surveys available for same year, consumption-based estimate preferred over income-based
 - **Missing values**: Gini data are sparse (survey-based, not annual). Gaps filled by:
