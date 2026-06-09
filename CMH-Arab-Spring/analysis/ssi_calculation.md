@@ -1,96 +1,83 @@
-# SSI Calculation Procedure
+# SSI Calculation Procedure — CMH Arab Spring (WP-2026-003)
 
-**Systemic Stress Index (SSI) — Computational Macrohistory, Document III**
-
----
-
-## Overview
-
-The Systemic Stress Index (SSI) is a composite index aggregating five structural variables into a single scalar measure of socio-political stress for a given country-year. It is derived from the CMH Political Stress Index (PSI) framework and operationalized here for the Arab Spring case study.
-
-**SSI range**: 0 (no stress) to 10 (maximum stress)  
-**Interpretation**: Higher SSI = greater structural conditions for political instability
+**Applies to:** *Computational Macrohistory: Exploratory Empirical Application — The Arab Spring as a Preliminary Test Case for Structural-Demographic Theory*, v2.0 (May 2026).
+**Supersedes:** the earlier version of this file, which documented an exploratory equal-weight, min-max specification that does not correspond to the published paper. The procedure below reproduces the published results exactly.
 
 ---
 
-## Step 1 — Variable Normalization
+## Step 1 — Input variables
 
-Each of the five raw variables is normalized to a [0, 1] scale using **min-max normalization** across the full dataset (all 3 countries, all 13 years):
+Five variables per country-year (see `data/codebook.md`):
 
-$$x_{norm} = \frac{x - x_{min}}{x_{max} - x_{min}}$$
+| Code | Variable |
+|------|----------|
+| D₂ | Youth Bulge (% population aged 15–29) |
+| E₂ | Gini coefficient (0–100 scale) |
+| E₄ | Youth unemployment rate (% of labor force aged 15–24) |
+| P₁ | Polity score (−10 to +10) |
+| S₃ | Internet penetration (% of population) |
 
-**Direction of normalization** (higher normalized value = higher stress):
+## Step 2 — Anocracy Stress transformation
 
-| Variable | CMH Code | Direction | Rationale |
-|----------|----------|-----------|-----------|
-| Youth Bulge | D₂ | Higher → Higher stress | Large youth cohort increases mobilization potential |
-| Gini Coefficient | E₂ | Higher → Higher stress | Greater inequality increases grievances |
-| Youth Unemployment | E₄ | Higher → Higher stress | Economic exclusion drives protest |
-| Polity Score | P₁ | **Lower → Higher stress** | More autocratic = less legitimate outlet, higher instability risk |
-| Internet Penetration | S₃ | Higher → Higher stress | Facilitates coordination and cascade effects |
+The Polity score is transformed to capture the inverted-U relationship between regime type and instability risk:
 
-**Note on P₁**: The Polity Score is inverted before normalization:
-$$P_{1,inv} = -P_1$$
-so that P₁ = –10 (full autocracy) maps to normalized value 1.0, and P₁ = +10 (full democracy) maps to 0.
+```
+Anocracy Stress (AS) = 1 − |P₁| / 10
+```
 
----
+AS = 1.0 at P₁ = 0 (pure anocracy); AS = 0.0 at P₁ = ±10 (pure democracy or pure autocracy).
+Examples (2010): Tunisia P₁ = −4 → AS = 0.6; Egypt P₁ = −3 → AS = 0.7; Saudi Arabia P₁ = −10 → AS = 0.0.
 
-## Step 2 — Weighted Aggregation
+## Step 3 — Z-score standardisation
 
-The SSI is computed as a weighted average of the five normalized variables, scaled to [0, 10]:
+Each component is standardised against MENA regional reference parameters (paper, Appendix B.2):
 
-$$SSI = 10 \times \sum_{i=1}^{5} w_i \cdot x_{i,norm}$$
+```
+z = (X − μ) / σ
+```
 
-**Weights used in Document III** (equal weighting, exploratory baseline):
+| Component | μ | σ | Reference population |
+|-----------|------|------|----------------------|
+| D₂ (%) | 22.5 | 4.5 | MENA average 1960–2010 |
+| E₂ (Gini, 0–100) | 40.0 | 8.0 | MENA average (estimated) |
+| E₄ (%) | 18.0 | 8.0 | MENA average 1990–2010 |
+| Anocracy Stress | 0.5 | 0.3 | Theoretical distribution |
+| S₃ (%) | 15.0 | 20.0 | MENA average 2000–2010 |
 
-| Variable | Weight (wᵢ) |
-|----------|-------------|
-| D₂ (Youth Bulge) | 0.20 |
-| E₂ (Gini) | 0.20 |
-| E₄ (Youth Unemployment) | 0.20 |
-| P₁ (Polity, inverted) | 0.20 |
-| S₃ (Internet) | 0.20 |
+## Step 4 — Weighted aggregation
 
-**Rationale for equal weights**: In the absence of empirical calibration on a sufficiently large sample (N >> 30), equal weighting is the methodologically conservative choice. Differential weighting is planned for Document IV with the expanded 10–11 country dataset.
+Weights are theory-derived (structural-demographic theory; paper §2.5.2 and §5.1.4), not estimated from data:
 
----
+```
+SSI = 0.15·z(D₂) + 0.25·z(E₂) + 0.25·z(E₄) + 0.25·z(AS) + 0.10·z(S₃)
+```
 
-## Step 3 — Temporal Smoothing (Optional)
+## Worked example — Tunisia 2010
 
-For time-series visualization, a 3-year centered moving average may be applied to reduce year-to-year noise:
+| Component | Raw value | z-score | Weight | Contribution |
+|-----------|-----------|---------|--------|--------------|
+| D₂ | 18.64% | −0.86 | 0.15 | −0.13 |
+| E₂ | 42.95 | +0.37 | 0.25 | +0.09 |
+| E₄ | 29.57% | +1.45 | 0.25 | +0.36 |
+| AS (P₁ = −4) | 0.60 | +0.33 | 0.25 | +0.08 |
+| S₃ | 36.8% | +1.09 | 0.10 | +0.11 |
+| **SSI** | | | | **0.52** |
 
-$$SSI_{smooth}(t) = \frac{SSI(t-1) + SSI(t) + SSI(t+1)}{3}$$
+Benchmark values (2010): Tunisia **0.52**, Egypt **0.10**, Saudi Arabia **−0.09**. Threshold SSI > 0 separates revolutionary from stable outcomes in this sample.
 
-Raw (unsmoothed) values are used for all quantitative comparisons in the paper. Smoothed values appear only in Figure 3 (time series plot).
+## Robustness conventions (paper §6.10 and Appendix C, v2.0)
 
----
+- **Weight variation (±30%):** the varied component takes w·(1±0.30); the remaining four weights are rescaled proportionally so the five weights sum to 1.0.
+- **Leave-one-variable-out:** the excluded component's weight is set to zero and the remaining four weights are rescaled proportionally to sum to 1.0 (standard rescaled convention; Tables 6.10.2 and C.2 are identical under this convention in v2.0).
 
-## Step 4 — Computation Example
+## Interpretive notes
 
-**Tunisia, 2010 (illustrative)**
-
-| Variable | Raw value | Min | Max | Normalized | Weight | Contribution |
-|----------|-----------|-----|-----|------------|--------|--------------|
-| D₂ | 29.5% | 22.1 | 32.8 | 0.70 | 0.20 | 0.140 |
-| E₂ | 0.407 | 0.36 | 0.48 | 0.39 | 0.20 | 0.078 |
-| E₄ | 30.2% | 15.8 | 42.6 | 0.53 | 0.20 | 0.106 |
-| P₁ | −7 (inv: +7) | −10 (inv) | +10 (inv) | 0.85 | 0.20 | 0.170 |
-| S₃ | 34.1% | 0.4 | 60.5 | 0.56 | 0.20 | 0.112 |
-| **SSI** | | | | | | **6.06** |
-
-*Note: values above are illustrative; use actual dataset values for replication.*
-
----
-
-## Limitations and Caveats
-
-1. **Equal weights are provisional**: The weights reflect theoretical priors, not empirical calibration. Results are sensitive to weight specification (acknowledged as a limitation in Section 6.3 of the paper).
-2. **Normalization is dataset-dependent**: Min-max normalization using this 3-country dataset will differ from normalization on the expanded 10–11 country dataset in Document IV. SSI values are not directly comparable across papers.
-3. **No inferential statistics**: The SSI is an exploratory descriptive tool in Document III. It is not used for hypothesis testing or causal inference.
-4. **Missing data propagation**: If any component variable is missing, SSI for that country-year is flagged as missing (no imputation of the composite index itself).
+1. **Weights are theory-derived, not calibrated.** With N = 3, any data-driven weighting would be meaningless. Sensitivity to the weighting scheme is reported in Appendix C.1 of the paper: equal-weight and economic-emphasis schemes break discrimination; the baseline and regime-emphasis schemes preserve it.
+2. **The SSI is a static approximation** (quasi-steady state) of the CMH dynamic system; see paper §2.6.
+3. **Results are exploratory.** N = 3 precludes statistical validation; see paper §8.
 
 ---
 
 ## Reference
 
-Fontaise, T. (2025). *CMH Document III: A Quantitative Analysis of the Arab Spring (2010–2012)*. FICSS Working Paper.
+Fontaise, G. (2026). *Computational Macrohistory: Exploratory Empirical Application — The Arab Spring as a Preliminary Test Case for Structural-Demographic Theory* (Working Paper WP-2026-003, v2.0). Fontaise Institute of Computational Social Science. DOI (v1.0): 10.5281/zenodo.18848734.
