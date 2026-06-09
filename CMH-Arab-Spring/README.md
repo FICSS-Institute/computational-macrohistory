@@ -4,13 +4,13 @@
 *A Quantitative Analysis of the Arab Spring (2010–2012)*
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18848734.svg)](https://doi.org/10.5281/zenodo.18848734)
 
 ---
 
 ## Overview
 
-This repository contains the replication materials for **Document III** of the Computational Macrohistory (CMH) series, published by the Fontaise Institute for Computational Social Sciences (FICSS), Lugano, Switzerland.
+This repository contains the replication materials for **Document III** (WP-2026-003) of the Computational Macrohistory (CMH) series, published by the Fontaise Institute of Computational Social Science (FICSS), Lugano, Switzerland. The current version of the paper is **v2.0** (May 2026, errata-corrected; supersedes the v1.0 deposit of March 2026).
 
 The paper applies the CMH framework to analyze the structural preconditions of the Arab Spring (2010–2012), comparing three MENA countries — **Tunisia**, **Egypt**, and **Saudi Arabia** — across five key socio-political variables for the period 2000–2012.
 
@@ -34,7 +34,7 @@ CMH-Arab-Spring/
 ├── figures/
 │   └── [fig1-6].png                 # Figures as they appear in the paper
 └── paper/
-    └── CMH_Document_III_v1.2.pdf    # The working paper (final version)
+    └── CMH_Document_III_v2_0.pdf    # The working paper (v2.0, errata-corrected)
 ```
 
 ---
@@ -46,12 +46,12 @@ The dataset (`arab_spring_data.csv`) contains annual observations for three coun
 | Variable | CMH Code | Description |
 |----------|----------|-------------|
 | Youth Bulge | D₂ | % population aged 15–29 |
-| Gini Coefficient | E₂ | Income inequality index (0–1) |
+| Gini Coefficient | E₂ | Income inequality index (0–100) |
 | Youth Unemployment | E₄ | % unemployed aged 15–24 |
 | Polity Score | P₁ | Democracy/autocracy index (–10 to +10) |
 | Internet Penetration | S₃ | % population using internet |
 
-**Sources**: World Bank Open Data, ILO Statistics, Polity V Project, Freedom House.  
+**Sources**: UN World Population Prospects, SWIID / World Bank, ILO ILOSTAT, Polity V Project, ITU / World Bank.  
 See `data/codebook.md` for full operationalization details.
 
 ---
@@ -72,18 +72,18 @@ To reproduce the SSI (Systemic Stress Index) calculations manually, follow the p
 
 If you use these materials, please cite:
 
-> Fontaise, T. (2025). *Computational Macrohistory — Document III: A Quantitative Analysis of the Arab Spring (2010–2012)*. FICSS Working Paper. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+> Fontaise, G. (2026). *Computational Macrohistory — Document III: A Quantitative Analysis of the Arab Spring (2010–2012)*. FICSS Working Paper WP-2026-003. Zenodo. https://doi.org/10.5281/zenodo.18848734
 
 BibTeX:
 ```bibtex
-@techreport{fontaise2025cmh3,
-  author    = {Fontaise, Tenofas},
+@techreport{fontaise2026cmh3,
+  author    = {Fontaise, Galen},
   title     = {Computational Macrohistory --- Document III: A Quantitative Analysis of the Arab Spring (2010--2012)},
-  year      = {2025},
-  institution = {Fontaise Institute for Computational Social Sciences (FICSS)},
+  year      = {2026},
+  institution = {Fontaise Institute of Computational Social Science (FICSS)},
   type      = {Working Paper},
-  doi       = {10.5281/zenodo.XXXXXXX},
-  url       = {https://doi.org/10.5281/zenodo.XXXXXXX}
+  doi       = {10.5281/zenodo.18848734},
+  url       = {https://doi.org/10.5281/zenodo.18848734}
 }
 ```
 
@@ -98,6 +98,6 @@ You are free to share and adapt the material for any purpose, provided appropria
 
 ## Contact
 
-Fontaise Institute for Computational Social Sciences (FICSS)  
+Fontaise Institute of Computational Social Science (FICSS)  
 Lugano, Switzerland  
-[FICSS Website]
+https://www.ficss.institute
