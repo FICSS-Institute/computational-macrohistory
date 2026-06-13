@@ -4,7 +4,7 @@ Replication materials for working paper **WP-2026-006**: "Koopman–CMH: A Forma
 
 Author: Galen Fontaise
 Institution: Fontaise Institute of Computational Social Science (FICSS), Lugano
-Paper DOI: `10.5281/zenodo.<TBD>` (Zenodo, canonical)
+Paper DOI: `10.5281/zenodo.20679000` (Zenodo, canonical)
 License: MIT (see repository root)
 
 ---
