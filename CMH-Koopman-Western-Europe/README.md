@@ -2,8 +2,8 @@
 
 Replication materials for working paper **WP-2026-006**: "Koopman–CMH: A Formal Treatment of Spectral Structure Persistence in Historical Dynamics"
 
-Author: Galen Fontaise
-Institution: Fontaise Institute of Computational Social Science (FICSS), Lugano
+Author: Stefano Angeli (Galen Fontaise)
+Institution: Foundations Institute of Computational Social Science (FICSS), Lugano
 Paper DOI: `10.5281/zenodo.20679000` (Zenodo, canonical)
 License: MIT (see repository root)
 
@@ -148,7 +148,7 @@ The umbrella programme repository is at <https://github.com/FICSS-Institute/comp
 
 Questions about this replication directory, the paper, or the broader Computational Macrohistory programme:
 
-Galen Fontaise — `galen.fontaise@ficss.institute`
+Stefano Angeli — `info@ficss.institute`
 
 ---
 
