@@ -10,7 +10,7 @@
 
 ## Overview
 
-This repository contains the replication materials for **Document III** (WP-2026-003) of the Computational Macrohistory (CMH) series, published by the Fontaise Institute of Computational Social Science (FICSS), Lugano, Switzerland. The current version of the paper is **v2.0** (May 2026, errata-corrected; supersedes the v1.0 deposit of March 2026).
+This repository contains the replication materials for **Document III** (WP-2026-003) of the Computational Macrohistory (CMH) series, published by the Foundations Institute of Computational Social Science (FICSS), Lugano, Switzerland. The current version of the paper is **v2.0** (May 2026, errata-corrected; supersedes the v1.0 deposit of March 2026).
 
 The paper applies the CMH framework to analyze the structural preconditions of the Arab Spring (2010–2012), comparing three MENA countries — **Tunisia**, **Egypt**, and **Saudi Arabia** — across five key socio-political variables for the period 2000–2012.
 
@@ -98,6 +98,6 @@ You are free to share and adapt the material for any purpose, provided appropria
 
 ## Contact
 
-Fontaise Institute of Computational Social Science (FICSS)  
+Foundations Institute of Computational Social Science (FICSS)  
 Lugano, Switzerland  
 https://www.ficss.institute
