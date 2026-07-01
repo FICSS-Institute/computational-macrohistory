@@ -15,7 +15,6 @@ Computational Macrohistory (CMH) applies rigorous quantitative methods to study 
 
 * **Research Blog**: https://galenfontaise.substack.com/
 * **Institution**: https://ficss.institute
-* **LinkedIn**: https://www.linkedin.com/in/galenfontaise/
 
 ## Case Studies
 
@@ -56,7 +55,7 @@ CMH rests on 8 axiomatic foundations:
 
 **Version**: 0.2
 **License**: MIT (Open Science)
-**Contact**: galen.fontaise@ficss.institute
+**Contact**: info@ficss.institute
 
 ---
 
