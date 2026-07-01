@@ -9,7 +9,7 @@ Computational Macrohistory (CMH) applies rigorous quantitative methods to study 
 * **Datasets**: Historical data standardized for analysis
 * **Code**: Analysis scripts, models, visualizations
 * **Documentation**: Methodology, codebooks, tutorials
-* **Case Studies**: Empirical applications (Arab Spring 2010–12)
+* **Case Studies**: Empirical applications (Arab Spring 2010–12 and Western Europe 1820–2020)
 
 ## Project Links
 
@@ -26,6 +26,7 @@ Testing whether structural variables (youth unemployment, inequality, regime typ
 |--------|-------|-----------|-----|
 | `CMH-Arab-Spring/` | WP-2026-003 (3-country proof of concept) | Tunisia, Egypt, Saudi Arabia | [10.5281/zenodo.18848734](https://doi.org/10.5281/zenodo.18848734) |
 | `CMH-Arab-Spring-11countries/` | WP-2026-004 (11-country analysis) | Algeria, Bahrain, Egypt, Jordan, Kuwait, Morocco, Oman, Saudi Arabia, Syria, Tunisia, Yemen | [10.5281/zenodo.19661257](https://doi.org/10.5281/zenodo.19661257) |
+| `CMH-Koopman-Western-Europe/` | WP-2026-006 (Koopman-CMH) | Western Europe 1820–2020 | [10.5281/zenodo.20679000](https://doi.org/10.5281/zenodo.20679000) |
 
 ## Working Paper Series
 
@@ -35,6 +36,8 @@ Testing whether structural variables (youth unemployment, inequality, regime typ
 | WP-2026-002 | Operational Framework | [10.5281/zenodo.18646832](https://doi.org/10.5281/zenodo.18646832) |
 | WP-2026-003 | Arab Spring — 3-Country Proof of Concept | [10.5281/zenodo.18848734](https://doi.org/10.5281/zenodo.18848734) |
 | WP-2026-004 | Arab Spring — 11-Country Analysis | [10.5281/zenodo.19661257](https://doi.org/10.5281/zenodo.19661257) |
+| WP-2026-005 | Beyond the Lyapunov Wall | 10.5281/zenodo.20111272 |
+| WP-2026-006 | Koopman-CMH: Spectral Structure Persistence | 10.5281/zenodo.20679000 |
 
 ## Foundational Framework
 
