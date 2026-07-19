@@ -1,0 +1,40 @@
+country,iso3,year,d2_youth_bulge,e2_gini,e4_youth_unemployment,p1_polity,s3_internet,data_quality
+Tunisia,TUN,2000,20.96,47.28,30.73,-3,2.75,estimated
+Tunisia,TUN,2001,21.08,46.88,29.89,-3,4.30,estimated
+Tunisia,TUN,2002,21.16,46.48,30.40,-4,5.25,estimated
+Tunisia,TUN,2003,21.20,46.07,30.67,-4,6.49,estimated
+Tunisia,TUN,2004,21.12,45.67,30.53,-4,8.53,estimated
+Tunisia,TUN,2005,20.86,45.27,28.10,-4,9.66,estimated
+Tunisia,TUN,2006,20.49,44.86,27.91,-4,12.99,estimated
+Tunisia,TUN,2007,20.08,44.39,28.14,-4,17.10,estimated
+Tunisia,TUN,2008,19.65,43.91,28.66,-4,27.53,estimated
+Tunisia,TUN,2009,19.17,43.43,31.15,-4,34.07,estimated
+Tunisia,TUN,2010,18.64,42.95,29.57,-4,36.80,estimated
+Tunisia,TUN,2011,18.08,42.47,42.64,4,39.10,estimated
+Tunisia,TUN,2012,17.52,41.99,38.44,5,41.44,estimated
+Egypt,EGY,2000,20.19,36.27,24.99,-6,0.64,estimated
+Egypt,EGY,2001,20.36,36.10,27.63,-6,0.84,estimated
+Egypt,EGY,2002,20.50,35.93,26.40,-6,2.72,estimated
+Egypt,EGY,2003,20.60,35.77,29.43,-6,4.04,estimated
+Egypt,EGY,2004,20.67,35.60,28.37,-6,11.92,estimated
+Egypt,EGY,2005,20.66,35.43,31.24,-3,12.75,estimated
+Egypt,EGY,2006,20.58,35.07,30.52,-3,13.66,estimated
+Egypt,EGY,2007,20.42,34.71,25.08,-3,16.03,estimated
+Egypt,EGY,2008,20.17,34.35,25.54,-3,18.01,estimated
+Egypt,EGY,2009,19.86,33.98,25.22,-3,20.00,estimated
+Egypt,EGY,2010,19.51,33.49,24.58,-3,21.60,estimated
+Egypt,EGY,2011,19.17,33.00,29.43,-2,25.60,estimated
+Egypt,EGY,2012,18.84,33.94,34.44,-3,26.40,estimated
+Saudi Arabia,SAU,2000,19.10,38.00,22.85,-10,2.21,estimated
+Saudi Arabia,SAU,2001,20.17,38.00,22.44,-10,4.68,estimated
+Saudi Arabia,SAU,2002,21.26,38.25,23.89,-10,6.38,estimated
+Saudi Arabia,SAU,2003,22.32,38.59,24.46,-10,8.00,estimated
+Saudi Arabia,SAU,2004,23.26,38.67,25.09,-10,10.23,estimated
+Saudi Arabia,SAU,2005,24.03,38.91,25.81,-10,12.71,estimated
+Saudi Arabia,SAU,2006,24.54,38.49,26.46,-10,19.46,estimated
+Saudi Arabia,SAU,2007,24.76,38.12,23.81,-10,30.00,estimated
+Saudi Arabia,SAU,2008,24.66,38.14,23.25,-10,36.00,interpolated
+Saudi Arabia,SAU,2009,24.25,38.36,24.74,-10,38.00,interpolated
+Saudi Arabia,SAU,2010,23.55,38.28,24.76,-10,41.00,interpolated
+Saudi Arabia,SAU,2011,22.60,37.83,25.11,-10,47.50,estimated
+Saudi Arabia,SAU,2012,21.45,37.84,24.84,-10,54.00,estimated
