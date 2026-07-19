@@ -3,7 +3,7 @@
 **Dataset**: `arab_spring_data.csv`  
 **Coverage**: Tunisia, Egypt, Saudi Arabia | 2000–2012  
 **Observations**: 195 (3 countries × 5 variables × 13 years)  
-**Last updated**: June 2026 (aligned with paper v2.0: E₂ unit 0–100, source attribution per §4.5.3)
+**Last updated**: July 2026 (aligned with paper v3.1: D₂ stated definition corrected to 15–24 after source verification; no data values changed)
 
 ---
 
@@ -29,15 +29,16 @@ Each row in `arab_spring_data.csv` represents one country-year observation.
 
 ### D₂ — Youth Bulge
 
-- **Definition**: Percentage of total population aged 15–29 years
+- **Definition**: Percentage of total population aged 15–24 years
 - **Unit**: Percentage (%)
 - **Range**: 0–100
 - **Source**: World Bank Open Data — Population estimates (UN)
-  - Indicator: `SP.POP.1524.TO.ZS` (15–24) extended with 25–29 cohort
+  - Age bands: `SP.POP.1519.MA.5Y` / `SP.POP.1519.FE.5Y` (15–19) and `SP.POP.2024.MA.5Y` / `SP.POP.2024.FE.5Y` (20–24), each as % of the respective sex population, summed and population-weighted
   - URL: https://data.worldbank.org
-- **Operationalization**: (Population aged 15–29) / (Total population) × 100
+- **Operationalization**: (Population aged 15–24) / (Total population) × 100
 - **CMH rationale**: Proxy for demographic pressure and potential for collective mobilization (Goldstone 1991; Turchin 2016)
 - **Missing values**: None for this dataset (UN estimates available for all years)
+- **Definition history**: versions 1.0–3.0 of WP-2026-003 described the band as 15–29; v3.1 (July 2026) corrected the description after verification of the deposited series against the source age bands confirmed the values are computed over ages 15–24 (canonical CMH definition). No data values changed.
 
 ---
 
@@ -143,3 +144,4 @@ Source: NAVCO 2.1 (Nonviolent and Violent Campaigns and Outcomes) + qualitative 
 - Marshall, M.G., Gurr, T.R., & Jaggers, K. (2018). *Polity IV Project Dataset Users' Manual*. Center for Systemic Peace.
 - Turchin, P. (2016). *Ages of Discord*. Beresta Books.
 - UNU-WIDER (2021). World Income Inequality Database (WIID). Version 31 May 2021.
+
