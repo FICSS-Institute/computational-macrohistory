@@ -1,6 +1,6 @@
 # SSI Calculation Procedure — CMH Arab Spring (WP-2026-003)
 
-**Applies to:** *Computational Macrohistory: Exploratory Empirical Application — The Arab Spring as a Preliminary Test Case for Structural-Demographic Theory*, v2.0 (May 2026).
+**Applies to:** *Computational Macrohistory: Exploratory empirical application. The Arab Spring as a preliminary test case for structural-demographic theory*, v3.1 (July 2026).
 **Supersedes:** the earlier version of this file, which documented an exploratory equal-weight, min-max specification that does not correspond to the published paper. The procedure below reproduces the published results exactly.
 
 ---
@@ -11,7 +11,7 @@ Five variables per country-year (see `data/codebook.md`):
 
 | Code | Variable |
 |------|----------|
-| D₂ | Youth Bulge (% population aged 15–29) |
+| D₂ | Youth Bulge (% population aged 15–24) |
 | E₂ | Gini coefficient (0–100 scale) |
 | E₄ | Youth unemployment rate (% of labor force aged 15–24) |
 | P₁ | Polity score (−10 to +10) |
@@ -75,9 +75,10 @@ Benchmark values (2010): Tunisia **0.52**, Egypt **0.10**, Saudi Arabia **−0.0
 1. **Weights are theory-derived, not calibrated.** With N = 3, any data-driven weighting would be meaningless. Sensitivity to the weighting scheme is reported in Appendix C.1 of the paper: equal-weight and economic-emphasis schemes break discrimination; the baseline and regime-emphasis schemes preserve it.
 2. **The SSI is a static approximation** (quasi-steady state) of the CMH dynamic system; see paper §2.6.
 3. **Results are exploratory.** N = 3 precludes statistical validation; see paper §8.
+4. **D₂ definition (v3.1):** versions 1.0–3.0 of the paper described the youth-bulge band as 15–29; verification of the deposited series against the source age bands (World Bank Open Data, UN population estimates) in July 2026 established that the values are computed over ages 15–24, the canonical CMH definition. No data values changed.
 
 ---
 
 ## Reference
 
-Fontaise, G. (2026). *Computational Macrohistory: Exploratory Empirical Application — The Arab Spring as a Preliminary Test Case for Structural-Demographic Theory* (Working Paper WP-2026-003, v2.0). Fontaise Institute of Computational Social Science. DOI (v1.0): 10.5281/zenodo.18848734.
+Angeli, S. (2026). *Computational Macrohistory: Exploratory empirical application. The Arab Spring as a preliminary test case for structural-demographic theory* (FICSS Working Paper No. WP-2026-003, v3.1). Foundations Institute of Computational Social Science. DOI: 10.5281/zenodo.21440130.
