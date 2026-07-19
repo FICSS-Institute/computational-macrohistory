@@ -1,3 +1,9 @@
+---
+related:
+  - "[[WP-2026-003_Arab-Spring-3nations_v2_0]]"
+  - "[[SSI_Operational]]"
+---
+
 # SSI Calculation Procedure — CMH Arab Spring (WP-2026-003)
 
 **Applies to:** *Computational Macrohistory: Exploratory empirical application. The Arab Spring as a preliminary test case for structural-demographic theory*, v3.1 (July 2026).
@@ -30,7 +36,7 @@ Examples (2010): Tunisia P₁ = −4 → AS = 0.6; Egypt P₁ = −3 → AS = 0.
 
 ## Step 3 — Z-score standardisation
 
-Each component is standardised against MENA regional reference parameters (paper, Appendix B.2):
+Each component is standardised against MENA regional reference parameters (paper, Table 5):
 
 ```
 z = (X − μ) / σ
@@ -46,7 +52,7 @@ z = (X − μ) / σ
 
 ## Step 4 — Weighted aggregation
 
-Weights are theory-derived (structural-demographic theory; paper §2.5.2 and §5.1.4), not estimated from data:
+Weights are theory-derived (structural-demographic theory; paper §2.4 and §5.1), not estimated from data:
 
 ```
 SSI = 0.15·z(D₂) + 0.25·z(E₂) + 0.25·z(E₄) + 0.25·z(AS) + 0.10·z(S₃)
@@ -65,15 +71,15 @@ SSI = 0.15·z(D₂) + 0.25·z(E₂) + 0.25·z(E₄) + 0.25·z(AS) + 0.10·z(S₃
 
 Benchmark values (2010): Tunisia **0.52**, Egypt **0.10**, Saudi Arabia **−0.09**. Threshold SSI > 0 separates revolutionary from stable outcomes in this sample.
 
-## Robustness conventions (paper §6.10 and Appendix C, v2.0)
+## Robustness conventions (paper §6.7 and Appendix C)
 
 - **Weight variation (±30%):** the varied component takes w·(1±0.30); the remaining four weights are rescaled proportionally so the five weights sum to 1.0.
-- **Leave-one-variable-out:** the excluded component's weight is set to zero and the remaining four weights are rescaled proportionally to sum to 1.0 (standard rescaled convention; Tables 6.10.2 and C.2 are identical under this convention in v2.0).
+- **Leave-one-variable-out:** the excluded component's weight is set to zero and the remaining four weights are rescaled proportionally to sum to 1.0 (standard rescaled convention).
 
 ## Interpretive notes
 
-1. **Weights are theory-derived, not calibrated.** With N = 3, any data-driven weighting would be meaningless. Sensitivity to the weighting scheme is reported in Appendix C.1 of the paper: equal-weight and economic-emphasis schemes break discrimination; the baseline and regime-emphasis schemes preserve it.
-2. **The SSI is a static approximation** (quasi-steady state) of the CMH dynamic system; see paper §2.6.
+1. **Weights are theory-derived, not calibrated.** With N = 3, any data-driven weighting would be meaningless. Sensitivity to the weighting scheme is reported in Appendix C of the paper (Table C.1): equal-weight and economic-emphasis schemes break discrimination; the baseline and regime-emphasis schemes preserve it.
+2. **The SSI is a static approximation** (quasi-steady state) of the CMH dynamic system; see paper §2.5.
 3. **Results are exploratory.** N = 3 precludes statistical validation; see paper §8.
 4. **D₂ definition (v3.1):** versions 1.0–3.0 of the paper described the youth-bulge band as 15–29; verification of the deposited series against the source age bands (World Bank Open Data, UN population estimates) in July 2026 established that the values are computed over ages 15–24, the canonical CMH definition. No data values changed.
 
