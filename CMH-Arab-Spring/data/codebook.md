@@ -1,3 +1,9 @@
+---
+related:
+  - "[[WP-2026-003_Arab-Spring-3nations_v2_0]]"
+  - "[[SSI_Operational]]"
+---
+
 # Codebook — CMH Arab Spring Dataset
 
 **Dataset**: `arab_spring_data.csv`  
@@ -112,6 +118,8 @@ Each row in `arab_spring_data.csv` represents one country-year observation.
 | `estimated` | ILO modeled estimate or secondary source estimate |
 | `uncertain` | Data quality concerns (see notes); use with caution |
 
+**Row-level assignment (v3.1):** the flag records the most severe caveat affecting the row, with E₂ interpolation taking precedence. D₂, P₁, and S₃ are observed institutional series in all rows; E₂ is SWIID model-based except where interpolated; E₄ is an ILO modeled series throughout. Every row is therefore at least `estimated`; Saudi Arabia 2008–2010, where E₂ was filled by linear interpolation, is flagged `interpolated`.
+
 ---
 
 ## Outcome Variable (not in CSV — for reference)
@@ -144,4 +152,3 @@ Source: NAVCO 2.1 (Nonviolent and Violent Campaigns and Outcomes) + qualitative 
 - Marshall, M.G., Gurr, T.R., & Jaggers, K. (2018). *Polity IV Project Dataset Users' Manual*. Center for Systemic Peace.
 - Turchin, P. (2016). *Ages of Discord*. Beresta Books.
 - UNU-WIDER (2021). World Income Inequality Database (WIID). Version 31 May 2021.
-
