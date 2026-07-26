@@ -1,0 +1,331 @@
+assignment,best_threshold_accuracy,accuracy_at_tau_0.10,correct_pairs
+Algeria|Bahrain|Egypt|Jordan,8,6,15
+Algeria|Bahrain|Egypt|Kuwait,7,4,6
+Algeria|Bahrain|Egypt|Morocco,7,6,12
+Algeria|Bahrain|Egypt|Oman,7,4,7
+Algeria|Bahrain|Egypt|Saudi Arabia,7,4,9
+Algeria|Bahrain|Egypt|Syria,7,4,8
+Algeria|Bahrain|Egypt|Tunisia,7,6,14
+Algeria|Bahrain|Egypt|Yemen,7,6,13
+Algeria|Bahrain|Jordan|Kuwait,8,4,10
+Algeria|Bahrain|Jordan|Morocco,8,6,16
+Algeria|Bahrain|Jordan|Oman,8,4,11
+Algeria|Bahrain|Jordan|Saudi Arabia,8,4,13
+Algeria|Bahrain|Jordan|Syria,8,4,12
+Algeria|Bahrain|Jordan|Tunisia,9,6,18
+Algeria|Bahrain|Jordan|Yemen,8,6,17
+Algeria|Bahrain|Kuwait|Morocco,7,4,7
+Algeria|Bahrain|Kuwait|Oman,7,2,2
+Algeria|Bahrain|Kuwait|Saudi Arabia,7,2,4
+Algeria|Bahrain|Kuwait|Syria,7,2,3
+Algeria|Bahrain|Kuwait|Tunisia,7,4,9
+Algeria|Bahrain|Kuwait|Yemen,7,4,8
+Algeria|Bahrain|Morocco|Oman,7,4,8
+Algeria|Bahrain|Morocco|Saudi Arabia,7,4,10
+Algeria|Bahrain|Morocco|Syria,7,4,9
+Algeria|Bahrain|Morocco|Tunisia,7,6,15
+Algeria|Bahrain|Morocco|Yemen,7,6,14
+Algeria|Bahrain|Oman|Saudi Arabia,7,2,5
+Algeria|Bahrain|Oman|Syria,7,2,4
+Algeria|Bahrain|Oman|Tunisia,7,4,10
+Algeria|Bahrain|Oman|Yemen,7,4,9
+Algeria|Bahrain|Saudi Arabia|Syria,7,2,6
+Algeria|Bahrain|Saudi Arabia|Tunisia,7,4,12
+Algeria|Bahrain|Saudi Arabia|Yemen,7,4,11
+Algeria|Bahrain|Syria|Tunisia,7,4,11
+Algeria|Bahrain|Syria|Yemen,7,4,10
+Algeria|Bahrain|Tunisia|Yemen,8,6,16
+Algeria|Egypt|Jordan|Kuwait,8,6,16
+Algeria|Egypt|Jordan|Morocco,9,8,22
+Algeria|Egypt|Jordan|Oman,8,6,17
+Algeria|Egypt|Jordan|Saudi Arabia,8,6,19
+Algeria|Egypt|Jordan|Syria,8,6,18
+Algeria|Egypt|Jordan|Tunisia,9,8,24
+Algeria|Egypt|Jordan|Yemen,9,8,23
+Algeria|Egypt|Kuwait|Morocco,7,6,13
+Algeria|Egypt|Kuwait|Oman,7,4,8
+Algeria|Egypt|Kuwait|Saudi Arabia,7,4,10
+Algeria|Egypt|Kuwait|Syria,7,4,9
+Algeria|Egypt|Kuwait|Tunisia,7,6,15
+Algeria|Egypt|Kuwait|Yemen,7,6,14
+Algeria|Egypt|Morocco|Oman,7,6,14
+Algeria|Egypt|Morocco|Saudi Arabia,8,6,16
+Algeria|Egypt|Morocco|Syria,7,6,15
+Algeria|Egypt|Morocco|Tunisia,9,8,21
+Algeria|Egypt|Morocco|Yemen,9,8,20
+Algeria|Egypt|Oman|Saudi Arabia,7,4,11
+Algeria|Egypt|Oman|Syria,7,4,10
+Algeria|Egypt|Oman|Tunisia,7,6,16
+Algeria|Egypt|Oman|Yemen,7,6,15
+Algeria|Egypt|Saudi Arabia|Syria,7,4,12
+Algeria|Egypt|Saudi Arabia|Tunisia,8,6,18
+Algeria|Egypt|Saudi Arabia|Yemen,8,6,17
+Algeria|Egypt|Syria|Tunisia,7,6,17
+Algeria|Egypt|Syria|Yemen,7,6,16
+Algeria|Egypt|Tunisia|Yemen,9,8,22
+Algeria|Jordan|Kuwait|Morocco,8,6,17
+Algeria|Jordan|Kuwait|Oman,8,4,12
+Algeria|Jordan|Kuwait|Saudi Arabia,8,4,14
+Algeria|Jordan|Kuwait|Syria,8,4,13
+Algeria|Jordan|Kuwait|Tunisia,9,6,19
+Algeria|Jordan|Kuwait|Yemen,8,6,18
+Algeria|Jordan|Morocco|Oman,8,6,18
+Algeria|Jordan|Morocco|Saudi Arabia,8,6,20
+Algeria|Jordan|Morocco|Syria,8,6,19
+Algeria|Jordan|Morocco|Tunisia,9,8,25
+Algeria|Jordan|Morocco|Yemen,9,8,24
+Algeria|Jordan|Oman|Saudi Arabia,8,4,15
+Algeria|Jordan|Oman|Syria,8,4,14
+Algeria|Jordan|Oman|Tunisia,9,6,20
+Algeria|Jordan|Oman|Yemen,8,6,19
+Algeria|Jordan|Saudi Arabia|Syria,8,4,16
+Algeria|Jordan|Saudi Arabia|Tunisia,9,6,22
+Algeria|Jordan|Saudi Arabia|Yemen,8,6,21
+Algeria|Jordan|Syria|Tunisia,9,6,21
+Algeria|Jordan|Syria|Yemen,8,6,20
+Algeria|Jordan|Tunisia|Yemen,10,8,26
+Algeria|Kuwait|Morocco|Oman,7,4,9
+Algeria|Kuwait|Morocco|Saudi Arabia,7,4,11
+Algeria|Kuwait|Morocco|Syria,7,4,10
+Algeria|Kuwait|Morocco|Tunisia,7,6,16
+Algeria|Kuwait|Morocco|Yemen,7,6,15
+Algeria|Kuwait|Oman|Saudi Arabia,7,2,6
+Algeria|Kuwait|Oman|Syria,7,2,5
+Algeria|Kuwait|Oman|Tunisia,7,4,11
+Algeria|Kuwait|Oman|Yemen,7,4,10
+Algeria|Kuwait|Saudi Arabia|Syria,7,2,7
+Algeria|Kuwait|Saudi Arabia|Tunisia,7,4,13
+Algeria|Kuwait|Saudi Arabia|Yemen,7,4,12
+Algeria|Kuwait|Syria|Tunisia,7,4,12
+Algeria|Kuwait|Syria|Yemen,7,4,11
+Algeria|Kuwait|Tunisia|Yemen,8,6,17
+Algeria|Morocco|Oman|Saudi Arabia,7,4,12
+Algeria|Morocco|Oman|Syria,7,4,11
+Algeria|Morocco|Oman|Tunisia,7,6,17
+Algeria|Morocco|Oman|Yemen,7,6,16
+Algeria|Morocco|Saudi Arabia|Syria,7,4,13
+Algeria|Morocco|Saudi Arabia|Tunisia,8,6,19
+Algeria|Morocco|Saudi Arabia|Yemen,8,6,18
+Algeria|Morocco|Syria|Tunisia,7,6,18
+Algeria|Morocco|Syria|Yemen,7,6,17
+Algeria|Morocco|Tunisia|Yemen,9,8,23
+Algeria|Oman|Saudi Arabia|Syria,7,2,8
+Algeria|Oman|Saudi Arabia|Tunisia,7,4,14
+Algeria|Oman|Saudi Arabia|Yemen,7,4,13
+Algeria|Oman|Syria|Tunisia,7,4,13
+Algeria|Oman|Syria|Yemen,7,4,12
+Algeria|Oman|Tunisia|Yemen,8,6,18
+Algeria|Saudi Arabia|Syria|Tunisia,7,4,15
+Algeria|Saudi Arabia|Syria|Yemen,7,4,14
+Algeria|Saudi Arabia|Tunisia|Yemen,8,6,20
+Algeria|Syria|Tunisia|Yemen,8,6,19
+Bahrain|Egypt|Jordan|Kuwait,8,6,11
+Bahrain|Egypt|Jordan|Morocco,8,8,17
+Bahrain|Egypt|Jordan|Oman,8,6,12
+Bahrain|Egypt|Jordan|Saudi Arabia,8,6,14
+Bahrain|Egypt|Jordan|Syria,8,6,13
+Bahrain|Egypt|Jordan|Tunisia,9,8,19
+Bahrain|Egypt|Jordan|Yemen,8,8,18
+Bahrain|Egypt|Kuwait|Morocco,7,6,8
+Bahrain|Egypt|Kuwait|Oman,7,4,3
+Bahrain|Egypt|Kuwait|Saudi Arabia,7,4,5
+Bahrain|Egypt|Kuwait|Syria,7,4,4
+Bahrain|Egypt|Kuwait|Tunisia,7,6,10
+Bahrain|Egypt|Kuwait|Yemen,7,6,9
+Bahrain|Egypt|Morocco|Oman,7,6,9
+Bahrain|Egypt|Morocco|Saudi Arabia,7,6,11
+Bahrain|Egypt|Morocco|Syria,7,6,10
+Bahrain|Egypt|Morocco|Tunisia,8,8,16
+Bahrain|Egypt|Morocco|Yemen,8,8,15
+Bahrain|Egypt|Oman|Saudi Arabia,7,4,6
+Bahrain|Egypt|Oman|Syria,7,4,5
+Bahrain|Egypt|Oman|Tunisia,7,6,11
+Bahrain|Egypt|Oman|Yemen,7,6,10
+Bahrain|Egypt|Saudi Arabia|Syria,7,4,7
+Bahrain|Egypt|Saudi Arabia|Tunisia,7,6,13
+Bahrain|Egypt|Saudi Arabia|Yemen,7,6,12
+Bahrain|Egypt|Syria|Tunisia,7,6,12
+Bahrain|Egypt|Syria|Yemen,7,6,11
+Bahrain|Egypt|Tunisia|Yemen,8,8,17
+Bahrain|Jordan|Kuwait|Morocco,8,6,12
+Bahrain|Jordan|Kuwait|Oman,8,4,7
+Bahrain|Jordan|Kuwait|Saudi Arabia,8,4,9
+Bahrain|Jordan|Kuwait|Syria,8,4,8
+Bahrain|Jordan|Kuwait|Tunisia,9,6,14
+Bahrain|Jordan|Kuwait|Yemen,8,6,13
+Bahrain|Jordan|Morocco|Oman,8,6,13
+Bahrain|Jordan|Morocco|Saudi Arabia,8,6,15
+Bahrain|Jordan|Morocco|Syria,8,6,14
+Bahrain|Jordan|Morocco|Tunisia,9,8,20
+Bahrain|Jordan|Morocco|Yemen,9,8,19
+Bahrain|Jordan|Oman|Saudi Arabia,8,4,10
+Bahrain|Jordan|Oman|Syria,8,4,9
+Bahrain|Jordan|Oman|Tunisia,9,6,15
+Bahrain|Jordan|Oman|Yemen,8,6,14
+Bahrain|Jordan|Saudi Arabia|Syria,8,4,11
+Bahrain|Jordan|Saudi Arabia|Tunisia,9,6,17
+Bahrain|Jordan|Saudi Arabia|Yemen,8,6,16
+Bahrain|Jordan|Syria|Tunisia,9,6,16
+Bahrain|Jordan|Syria|Yemen,8,6,15
+Bahrain|Jordan|Tunisia|Yemen,10,8,21
+Bahrain|Kuwait|Morocco|Oman,7,4,4
+Bahrain|Kuwait|Morocco|Saudi Arabia,7,4,6
+Bahrain|Kuwait|Morocco|Syria,7,4,5
+Bahrain|Kuwait|Morocco|Tunisia,7,6,11
+Bahrain|Kuwait|Morocco|Yemen,7,6,10
+Bahrain|Kuwait|Oman|Saudi Arabia,7,2,1
+Bahrain|Kuwait|Oman|Syria,7,2,0
+Bahrain|Kuwait|Oman|Tunisia,7,4,6
+Bahrain|Kuwait|Oman|Yemen,7,4,5
+Bahrain|Kuwait|Saudi Arabia|Syria,7,2,2
+Bahrain|Kuwait|Saudi Arabia|Tunisia,7,4,8
+Bahrain|Kuwait|Saudi Arabia|Yemen,7,4,7
+Bahrain|Kuwait|Syria|Tunisia,7,4,7
+Bahrain|Kuwait|Syria|Yemen,7,4,6
+Bahrain|Kuwait|Tunisia|Yemen,8,6,12
+Bahrain|Morocco|Oman|Saudi Arabia,7,4,7
+Bahrain|Morocco|Oman|Syria,7,4,6
+Bahrain|Morocco|Oman|Tunisia,7,6,12
+Bahrain|Morocco|Oman|Yemen,7,6,11
+Bahrain|Morocco|Saudi Arabia|Syria,7,4,8
+Bahrain|Morocco|Saudi Arabia|Tunisia,7,6,14
+Bahrain|Morocco|Saudi Arabia|Yemen,7,6,13
+Bahrain|Morocco|Syria|Tunisia,7,6,13
+Bahrain|Morocco|Syria|Yemen,7,6,12
+Bahrain|Morocco|Tunisia|Yemen,9,8,18
+Bahrain|Oman|Saudi Arabia|Syria,7,2,3
+Bahrain|Oman|Saudi Arabia|Tunisia,7,4,9
+Bahrain|Oman|Saudi Arabia|Yemen,7,4,8
+Bahrain|Oman|Syria|Tunisia,7,4,8
+Bahrain|Oman|Syria|Yemen,7,4,7
+Bahrain|Oman|Tunisia|Yemen,8,6,13
+Bahrain|Saudi Arabia|Syria|Tunisia,7,4,10
+Bahrain|Saudi Arabia|Syria|Yemen,7,4,9
+Bahrain|Saudi Arabia|Tunisia|Yemen,8,6,15
+Bahrain|Syria|Tunisia|Yemen,8,6,14
+Egypt|Jordan|Kuwait|Morocco,8,8,18
+Egypt|Jordan|Kuwait|Oman,8,6,13
+Egypt|Jordan|Kuwait|Saudi Arabia,8,6,15
+Egypt|Jordan|Kuwait|Syria,8,6,14
+Egypt|Jordan|Kuwait|Tunisia,9,8,20
+Egypt|Jordan|Kuwait|Yemen,8,8,19
+Egypt|Jordan|Morocco|Oman,8,8,19
+Egypt|Jordan|Morocco|Saudi Arabia,8,8,21
+Egypt|Jordan|Morocco|Syria,8,8,20
+Egypt|Jordan|Morocco|Tunisia,10,10,26
+Egypt|Jordan|Morocco|Yemen,10,10,25
+Egypt|Jordan|Oman|Saudi Arabia,8,6,16
+Egypt|Jordan|Oman|Syria,8,6,15
+Egypt|Jordan|Oman|Tunisia,9,8,21
+Egypt|Jordan|Oman|Yemen,8,8,20
+Egypt|Jordan|Saudi Arabia|Syria,8,6,17
+Egypt|Jordan|Saudi Arabia|Tunisia,9,8,23
+Egypt|Jordan|Saudi Arabia|Yemen,8,8,22
+Egypt|Jordan|Syria|Tunisia,9,8,22
+Egypt|Jordan|Syria|Yemen,8,8,21
+Egypt|Jordan|Tunisia|Yemen,10,10,27
+Egypt|Kuwait|Morocco|Oman,7,6,10
+Egypt|Kuwait|Morocco|Saudi Arabia,7,6,12
+Egypt|Kuwait|Morocco|Syria,7,6,11
+Egypt|Kuwait|Morocco|Tunisia,8,8,17
+Egypt|Kuwait|Morocco|Yemen,8,8,16
+Egypt|Kuwait|Oman|Saudi Arabia,7,4,7
+Egypt|Kuwait|Oman|Syria,7,4,6
+Egypt|Kuwait|Oman|Tunisia,7,6,12
+Egypt|Kuwait|Oman|Yemen,7,6,11
+Egypt|Kuwait|Saudi Arabia|Syria,7,4,8
+Egypt|Kuwait|Saudi Arabia|Tunisia,7,6,14
+Egypt|Kuwait|Saudi Arabia|Yemen,7,6,13
+Egypt|Kuwait|Syria|Tunisia,7,6,13
+Egypt|Kuwait|Syria|Yemen,7,6,12
+Egypt|Kuwait|Tunisia|Yemen,8,8,18
+Egypt|Morocco|Oman|Saudi Arabia,7,6,13
+Egypt|Morocco|Oman|Syria,7,6,12
+Egypt|Morocco|Oman|Tunisia,8,8,18
+Egypt|Morocco|Oman|Yemen,8,8,17
+Egypt|Morocco|Saudi Arabia|Syria,7,6,14
+Egypt|Morocco|Saudi Arabia|Tunisia,8,8,20
+Egypt|Morocco|Saudi Arabia|Yemen,8,8,19
+Egypt|Morocco|Syria|Tunisia,8,8,19
+Egypt|Morocco|Syria|Yemen,8,8,18
+Egypt|Morocco|Tunisia|Yemen,10,10,24
+Egypt|Oman|Saudi Arabia|Syria,7,4,9
+Egypt|Oman|Saudi Arabia|Tunisia,7,6,15
+Egypt|Oman|Saudi Arabia|Yemen,7,6,14
+Egypt|Oman|Syria|Tunisia,7,6,14
+Egypt|Oman|Syria|Yemen,7,6,13
+Egypt|Oman|Tunisia|Yemen,8,8,19
+Egypt|Saudi Arabia|Syria|Tunisia,7,6,16
+Egypt|Saudi Arabia|Syria|Yemen,7,6,15
+Egypt|Saudi Arabia|Tunisia|Yemen,8,8,21
+Egypt|Syria|Tunisia|Yemen,8,8,20
+Jordan|Kuwait|Morocco|Oman,8,6,14
+Jordan|Kuwait|Morocco|Saudi Arabia,8,6,16
+Jordan|Kuwait|Morocco|Syria,8,6,15
+Jordan|Kuwait|Morocco|Tunisia,9,8,21
+Jordan|Kuwait|Morocco|Yemen,9,8,20
+Jordan|Kuwait|Oman|Saudi Arabia,8,4,11
+Jordan|Kuwait|Oman|Syria,8,4,10
+Jordan|Kuwait|Oman|Tunisia,9,6,16
+Jordan|Kuwait|Oman|Yemen,8,6,15
+Jordan|Kuwait|Saudi Arabia|Syria,8,4,12
+Jordan|Kuwait|Saudi Arabia|Tunisia,9,6,18
+Jordan|Kuwait|Saudi Arabia|Yemen,8,6,17
+Jordan|Kuwait|Syria|Tunisia,9,6,17
+Jordan|Kuwait|Syria|Yemen,8,6,16
+Jordan|Kuwait|Tunisia|Yemen,10,8,22
+Jordan|Morocco|Oman|Saudi Arabia,8,6,17
+Jordan|Morocco|Oman|Syria,8,6,16
+Jordan|Morocco|Oman|Tunisia,9,8,22
+Jordan|Morocco|Oman|Yemen,9,8,21
+Jordan|Morocco|Saudi Arabia|Syria,8,6,18
+Jordan|Morocco|Saudi Arabia|Tunisia,9,8,24
+Jordan|Morocco|Saudi Arabia|Yemen,9,8,23
+Jordan|Morocco|Syria|Tunisia,9,8,23
+Jordan|Morocco|Syria|Yemen,9,8,22
+Jordan|Morocco|Tunisia|Yemen,11,10,28
+Jordan|Oman|Saudi Arabia|Syria,8,4,13
+Jordan|Oman|Saudi Arabia|Tunisia,9,6,19
+Jordan|Oman|Saudi Arabia|Yemen,8,6,18
+Jordan|Oman|Syria|Tunisia,9,6,18
+Jordan|Oman|Syria|Yemen,8,6,17
+Jordan|Oman|Tunisia|Yemen,10,8,23
+Jordan|Saudi Arabia|Syria|Tunisia,9,6,20
+Jordan|Saudi Arabia|Syria|Yemen,8,6,19
+Jordan|Saudi Arabia|Tunisia|Yemen,10,8,25
+Jordan|Syria|Tunisia|Yemen,10,8,24
+Kuwait|Morocco|Oman|Saudi Arabia,7,4,8
+Kuwait|Morocco|Oman|Syria,7,4,7
+Kuwait|Morocco|Oman|Tunisia,7,6,13
+Kuwait|Morocco|Oman|Yemen,7,6,12
+Kuwait|Morocco|Saudi Arabia|Syria,7,4,9
+Kuwait|Morocco|Saudi Arabia|Tunisia,7,6,15
+Kuwait|Morocco|Saudi Arabia|Yemen,7,6,14
+Kuwait|Morocco|Syria|Tunisia,7,6,14
+Kuwait|Morocco|Syria|Yemen,7,6,13
+Kuwait|Morocco|Tunisia|Yemen,9,8,19
+Kuwait|Oman|Saudi Arabia|Syria,7,2,4
+Kuwait|Oman|Saudi Arabia|Tunisia,7,4,10
+Kuwait|Oman|Saudi Arabia|Yemen,7,4,9
+Kuwait|Oman|Syria|Tunisia,7,4,9
+Kuwait|Oman|Syria|Yemen,7,4,8
+Kuwait|Oman|Tunisia|Yemen,8,6,14
+Kuwait|Saudi Arabia|Syria|Tunisia,7,4,11
+Kuwait|Saudi Arabia|Syria|Yemen,7,4,10
+Kuwait|Saudi Arabia|Tunisia|Yemen,8,6,16
+Kuwait|Syria|Tunisia|Yemen,8,6,15
+Morocco|Oman|Saudi Arabia|Syria,7,4,10
+Morocco|Oman|Saudi Arabia|Tunisia,7,6,16
+Morocco|Oman|Saudi Arabia|Yemen,7,6,15
+Morocco|Oman|Syria|Tunisia,7,6,15
+Morocco|Oman|Syria|Yemen,7,6,14
+Morocco|Oman|Tunisia|Yemen,9,8,20
+Morocco|Saudi Arabia|Syria|Tunisia,7,6,17
+Morocco|Saudi Arabia|Syria|Yemen,7,6,16
+Morocco|Saudi Arabia|Tunisia|Yemen,9,8,22
+Morocco|Syria|Tunisia|Yemen,9,8,21
+Oman|Saudi Arabia|Syria|Tunisia,7,4,12
+Oman|Saudi Arabia|Syria|Yemen,7,4,11
+Oman|Saudi Arabia|Tunisia|Yemen,8,6,17
+Oman|Syria|Tunisia|Yemen,8,6,16
+Saudi Arabia|Syria|Tunisia|Yemen,8,6,18
